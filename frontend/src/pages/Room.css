@@ -1,0 +1,51 @@
+.container-room{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.video-el{
+    height: 350px;
+    width: 350px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 10px;
+}
+.end-call{
+    background-color: red;
+    color: white;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+}
+.end-call:hover{
+    box-shadow: 2px 2px 10px red;
+}
+.end-call:active{
+    border-radius: none;
+}
+
+.video-chamber{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+#vol-btn{
+    border: none;
+    background-color: violet;
+    height: 50px;
+    border-radius: 50%;
+}
+#vol-btn:hover{
+    box-shadow: 2px 2px 10px violet;
+}
+
+.control{
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}

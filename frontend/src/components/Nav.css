@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav .logo-container{
+    width: 100px;
+    margin: 15px;
+}
+.nav .nav-button{
+    margin: 5px;
+}
+.nav .logo-container .logo{
+    width: 100%;
+    
+}
+.nav-button{
+    background-color: white;
+    color: rgb(255, 61, 145);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 19px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.nav-button:disabled{
+    background-color: rgba(243, 209, 217, 0.805);
+}

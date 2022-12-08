@@ -1,0 +1,27 @@
+#leave-btn{
+    border: none;
+    display: block;
+    color: rgb(255, 75, 75);
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#leave-btn:hover{
+    border-bottom: 1px solid red;
+}
+#leave-btn:active{
+    border-bottom: 1px solid pink;
+}
+.videocall-btn{
+    cursor: pointer;
+    font-size: small;
+    font-weight: bolder;
+    color: green;
+    text-align: right;
+}
+.videocall-btn:hover{
+    background-color: green;
+    color: white;
+}
+.videocall-btn:active{
+    font-size: smaller;
+}

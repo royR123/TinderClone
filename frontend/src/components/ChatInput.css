@@ -1,0 +1,29 @@
+.text-area{
+    width: 75%;
+    height: 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(197, 230, 255, 0.251);
+}
+.text-area:focus{
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(255, 57, 116, 0.705);
+    /* border-bottom: solid 2px rgba(255, 57, 116, 0.705); */
+    width: 75%;
+    height: 30px;
+}
+.send-btn{
+    height: 37px;
+    background : linear-gradient(26deg,green,rgba(3, 54, 3, 0.645));
+    border: none;
+    color: white;
+}
+.send-btn:hover{
+    box-shadow: 1px 1px 10px green;
+}
+.send-btn:active{
+    box-shadow: 1px 1px 10px rgb(1, 48, 1);
+
+}
