@@ -12,7 +12,7 @@ const { Server } = require('socket.io');
 const server = createServer(app);
 const io = new Server(server,{
     cors:{
-        origin:["http://localhost:3000",'http://merntinderapp.herokuapp.com']
+        origin:["http://localhost:3000",'http://merntinderapp.herokuapp.com','https://merntinderapp.herokuapp.com']
     }
 });
 
@@ -22,7 +22,7 @@ require('dotenv').config();
 
 
 app.use(cors({
-    origin : ['http://localhost:3000','http://merntinderapp.herokuapp.com'],
+    origin : ['http://localhost:3000','http://merntinderapp.herokuapp.com','https://merntinderapp.herokuapp.com'],
     credentials : true
 }));
 
