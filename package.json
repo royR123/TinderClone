@@ -17,7 +17,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
     "heroku-postbuild": "cd frontend && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Ritik",
